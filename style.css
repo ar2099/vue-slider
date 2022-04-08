@@ -12,3 +12,24 @@
     clear: both;
     display: table;
 }
+
+.immagine {
+    max-height: 450px;
+    max-width: 900px;
+    user-select: none;
+}
+
+.contenitore {
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: bisque;
+}
+
+.simbolo {
+    font-size: 4em;
+    color: black;
+}
