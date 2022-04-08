@@ -1,0 +1,14 @@
+/* RESET E IMPOSTAZIONI GENERALI */
+
+* {
+    margin: 5px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
