@@ -18,7 +18,15 @@
 
         <div class="contenitore">
             <i class="fa-solid fa-circle-left simbolo"@click="slideSinistra" ></i>
-            <img v-bind:src="immagini[indice]" alt="" class="immagine">
+
+            <div class="cont-immagini">
+                <img v-bind:src="immagini[indice]" alt="" class="immagine">
+                <div class="segnaposto">
+                    <i class="fa-solid fa-circle pallino" v-for="(elemento, index) in immagini" :key="elemento.immagini" :class="(index == indice) ? `bianco`: `` "></i>
+                    
+                </div>
+            </div>
+
             <i class="fa-solid fa-circle-right simbolo" @click="slideDestra"></i>
         </div>
        

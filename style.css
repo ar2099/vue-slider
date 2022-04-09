@@ -14,14 +14,14 @@
 }
 
 .immagine {
-    max-height: 450px;
+    max-height: 85%;
     max-width: 900px;
     user-select: none;
 }
 
 .contenitore {
     width: 1100px;
-    height: 600px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +29,33 @@
     background-color: bisque;
 }
 
+.cont-immagini {
+    display: flex;
+    flex-direction: column;
+    height: 699px;
+    width: 902px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+.segnaposto {
+    height: 15%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 72); */
+    display: flex;
+    justify-content: center;
+}
+
 .simbolo {
     font-size: 4em;
     color: black;
+}
+
+.pallino {
+    font-size: 1.5em;
+    margin: 5px;
+}
+.bianco {
+    color: white;
 }
